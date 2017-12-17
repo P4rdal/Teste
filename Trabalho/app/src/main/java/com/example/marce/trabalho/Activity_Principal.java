@@ -25,7 +25,6 @@ public class Activity_Principal extends AppCompatActivity implements View.OnClic
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity__principal);
-        new DownloadDados().execute();
 
         Button bt_todos = (Button)findViewById(R.id.princia_l_todos);
         bt_todos.setOnClickListener(this);
