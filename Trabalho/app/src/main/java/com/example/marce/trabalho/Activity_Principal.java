@@ -20,8 +20,7 @@ import javax.net.ssl.HttpsURLConnection;
 
 public class Activity_Principal extends AppCompatActivity implements View.OnClickListener {
 
-    EditText etResponse;
-    TextView tvIsConnected;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
